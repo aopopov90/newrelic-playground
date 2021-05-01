@@ -1,0 +1,53 @@
+{
+    "name": "my.company.integration",
+    "protocol_version": "3",
+    "integration_version": "x.y.z",  
+    "data": [
+      {
+        "entity": {
+          "name": "my_garage",
+          "type": "building",
+          "id_attributes": [
+            {
+              "key": "environment",
+              "value": "production"
+            }, 
+            { 
+               "key": "node",
+               "value": "master"
+            }
+          ]
+        },
+        "inventory": {
+          "versions": {
+            "service": "event",
+            "version": "1.1-1"
+          }
+        },
+        "events": {}
+      },
+      {
+        "entity": {
+          "name": "my_family_car",
+          "type": "car",
+          "id_attributes": [ 
+            {
+              "key": "environment",
+              "value": "production"
+            },
+            {
+              "key": "node",
+              "value": "master"
+            } 
+          ]
+        },
+        "inventory": {
+          "versions": {
+            "service": "data-ingestion",
+            "version": "1.2-1"
+          }
+        },
+        "add_hostname": true
+      }
+    ]
+  }

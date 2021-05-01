@@ -1,0 +1,11 @@
+name: com.popov.test
+description: Reports custom test metrics
+protocol_version: 2
+os: linux
+
+commands:
+  metrics:
+    command:
+      - cat
+      - output
+    interval: 15

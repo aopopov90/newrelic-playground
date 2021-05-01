@@ -1,0 +1,7 @@
+integration_name: com.popov.test
+instances:
+  - name: test-metrics
+    command: metrics
+    labels: 
+      environment: test
+      role: test
